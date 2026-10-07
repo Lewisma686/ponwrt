@@ -27,6 +27,7 @@ PonWrt 是一个用于研究和开发的开源光猫固件项目。
 | AN7581 | UnionMan UNG00A | `unionman_ung00a` | `reservearea` |
 | AN7581 | ZNXT ZN504XG-D | `znxt_zn504xg-d` | `reservearea` |
 | AN7581 | ZNXT ZN515XG-D | `znxt_zn515xg-d` | `reservearea` |
+| AN7581 | H3C HM2004-DU | `h3c_hm2004-du` | `factory` |
 | AN7583 | Nokia XG-040G-MF | `nokia_xg-040g-mf`、`nokia_xg-040g-mf-ubi` | `bosa`、`ri` |
 
 ## 编译
@@ -48,7 +49,7 @@ sudo apt install -y ack antlr3 asciidoc autoconf automake autopoint binutils bis
 sudo bash -c 'bash <(curl -s https://build-scripts.immortalwrt.org/init_build_environment.sh)'
 
 #  拉取源码
-git clone https://github.com/pbs05/ponwrt.git
+git clone https://github.com/Lewisma686/ponwrt.git
 cd ponwrt
 
 #  更新并安装 feeds（软件包源）
