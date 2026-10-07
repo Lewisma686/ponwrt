@@ -58,7 +58,8 @@ cd ponwrt
 
 #  选择配置 以目标7581为例
 cp configs/an7581.config .config
-cp configs/h3c_hm2004-du1.config .config
+cp configs/h3c_hm2004-du.config .config
+cp configs/fiberhome_hg5585f-ct.config .config
 #  若目标是 AN7583，改用下面这行：
 cp configs/an7583.config .config
 
