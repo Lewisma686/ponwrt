@@ -50,7 +50,7 @@ sudo bash -c 'bash <(curl -s https://build-scripts.immortalwrt.org/init_build_en
 
 
 #  Clone the source code
-git clone https://github.com/pbs05/ponwrt.git
+git clone https://github.com/Lewisma686/ponwrt.git
 cd ponwrt
 
 
